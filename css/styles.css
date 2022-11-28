@@ -9,6 +9,10 @@
   --foot-font-color: rgb(255, 255, 255, 0.6);
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color);
@@ -46,6 +50,7 @@ body {
   line-height: 1.17;
   color: #000;
   text-decoration: none;
+  padding: 24px 93px 25px 215px;
 }
 .foot-logo {
   font-weight: 700;
@@ -69,7 +74,14 @@ body {
 .contact {
   text-decoration: none;
   color: var(--nr-color);
+  display: inline-flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+.contact-mail {
+  padding-right: 50px;
+}
+
 .nav-font {
   font-weight: 500;
   font-size: 14px;
@@ -80,9 +92,15 @@ body {
 }
 .nav-list {
   list-style-type: none;
+  display: inline-flex;
+  padding: 32px 371px 32px 0px;
+}
+.mid-element-navlist {
+  padding: 0px 32px 0px 32px;
 }
 .nav-list-sec {
   list-style-type: none;
+  display: inline-flex;
 }
 .images-list {
   list-style-type: none;
@@ -207,4 +225,13 @@ body {
 .foot-text-portfolio {
   text-decoration: underline;
   color: var(--foot-font-color);
+}
+/* box */
+
+.box-head {
+  display: inline-flex;
+  border-bottom: 1px;
+}
+.container {
+  width: 1200px;
 }
