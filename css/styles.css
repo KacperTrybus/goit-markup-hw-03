@@ -129,6 +129,7 @@ body {
   text-transform: uppercase;
   color: white;
   background-color: var(--bg-color);
+  padding-top: 200px;
 }
 .main-button {
   color: white;
@@ -138,11 +139,17 @@ body {
   font-size: 16px;
   line-height: 1.87;
   display: flex;
-  align-items: center;
-  text-align: center;
+  justify-content: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
+  padding: 10px 41px 10px 42px;
+}
+.button-pos {
+  padding: 30px 700px 200px 700px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 .main-section {
   background-color: white;
@@ -234,4 +241,8 @@ body {
 }
 .container {
   width: 1200px;
+}
+.main-section-box {
+  display: inline-block;
+  background-color: #2f303a;
 }
