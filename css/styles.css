@@ -50,7 +50,6 @@ body {
   line-height: 1.17;
   color: #000;
   text-decoration: none;
-  padding: 24px 93px 25px 215px;
 }
 .foot-logo {
   font-weight: 700;
@@ -128,8 +127,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: white;
-  background-color: var(--bg-color);
-  padding-top: 200px;
+  padding: 200px 452px 280px 452px;
 }
 .main-button {
   color: white;
@@ -146,8 +144,6 @@ body {
   padding: 10px 41px 10px 42px;
 }
 .button-pos {
-  padding: 30px 700px 200px 700px;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
@@ -234,15 +230,27 @@ body {
   color: var(--foot-font-color);
 }
 /* box */
-
-.box-head {
-  display: inline-flex;
-  border-bottom: 1px;
+.section {
+  padding: 94px 0px 94px 0px;
 }
 .container {
   width: 1200px;
+  padding: 0px;
 }
+.box-head {
+  border-bottom: 1px;
+  display: inline-flex;
+}
+
 .main-section-box {
-  display: inline-block;
+  display: block;
   background-color: #2f303a;
+}
+.nav-box {
+  justify-content: center;
+}
+.logo-box {
+  padding: 0px 78px 0px 200px;
+  margin: -70px 0px -69px 0px;
+  display: inline-flex;
 }
