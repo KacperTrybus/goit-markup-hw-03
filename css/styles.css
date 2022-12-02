@@ -50,6 +50,7 @@ body {
   line-height: 1.17;
   color: #000;
   text-decoration: none;
+  padding: -70px 78px -69px 200px;
 }
 .foot-logo {
   font-weight: 700;
@@ -242,15 +243,14 @@ body {
   display: inline-flex;
 }
 
-.main-section-box {
-  display: block;
-  background-color: #2f303a;
-}
 .nav-box {
   justify-content: center;
 }
 .logo-box {
-  padding: 0px 78px 0px 200px;
-  margin: -70px 0px -69px 0px;
-  display: inline-flex;
+  padding: -70px 78px -69px 200px;
+  justify-content: center;
+}
+.main-section-box {
+  display: block;
+  background-color: #2f303a;
 }
