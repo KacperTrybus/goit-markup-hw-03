@@ -50,7 +50,6 @@ body {
   line-height: 1.17;
   color: #000;
   text-decoration: none;
-  padding: -70px 78px -69px 200px;
 }
 .foot-logo {
   font-weight: 700;
@@ -93,7 +92,6 @@ body {
 .nav-list {
   list-style-type: none;
   display: inline-flex;
-  padding: 32px 371px 32px 0px;
 }
 .mid-element-navlist {
   padding: 0px 32px 0px 32px;
@@ -231,26 +229,34 @@ body {
   color: var(--foot-font-color);
 }
 /* box */
+.margin {
+  margin: 0px 200px 0px 200px;
+}
 .section {
-  padding: 94px 0px 94px 0px;
+  padding: 94px 0px;
 }
 .container {
   width: 1200px;
-  padding: 0px;
 }
 .box-head {
   border-bottom: 1px;
+  display: flexbox;
+}
+.logo-box {
+  padding: 24px 78px 25px 200px;
   display: inline-flex;
 }
 
 .nav-box {
   justify-content: center;
+  display: inline-flex;
 }
-.logo-box {
-  padding: -70px 78px -69px 200px;
-  justify-content: center;
-}
+
 .main-section-box {
   display: block;
   background-color: #2f303a;
+}
+
+.nav-list-sec-box {
+  padding-left: 184px;
 }
