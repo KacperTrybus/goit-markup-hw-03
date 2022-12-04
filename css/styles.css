@@ -73,12 +73,6 @@ body {
 .contact {
   text-decoration: none;
   color: var(--nr-color);
-  display: inline-flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-.contact-mail {
-  padding-right: 50px;
 }
 
 .nav-font {
@@ -93,9 +87,7 @@ body {
   list-style-type: none;
   display: inline-flex;
 }
-.mid-element-navlist {
-  padding: 0px 32px 0px 32px;
-}
+
 .nav-list-sec {
   list-style-type: none;
   display: inline-flex;
@@ -237,26 +229,33 @@ body {
 }
 .container {
   width: 1200px;
+  padding: 0px 15px;
+  margin: 0px auto;
 }
 .box-head {
   border-bottom: 1px;
-  display: flexbox;
+  display: flex;
+  width: 1600px;
 }
 .logo-box {
-  padding: 24px 78px 25px 200px;
+  padding: 24px 0px 25px 0px;
   display: inline-flex;
 }
-
 .nav-box {
-  justify-content: center;
   display: inline-flex;
+  padding: 27px 371px 37px 93px;
 }
-
+.mid-element-navlist {
+  display: inline-flex;
+  margin: 0px 46px 0px 46px;
+}
+.nav-list-sec-box {
+  padding: 32px 12px 32px 0px;
+}
+.contact-mail {
+  margin-right: 50px;
+}
 .main-section-box {
   display: block;
   background-color: #2f303a;
-}
-
-.nav-list-sec-box {
-  padding-left: 184px;
 }
