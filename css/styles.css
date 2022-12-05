@@ -118,7 +118,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: white;
-  padding: 200px 452px 280px 452px;
 }
 .main-button {
   color: white;
@@ -134,10 +133,7 @@ body {
   border-radius: 4px;
   padding: 10px 41px 10px 42px;
 }
-.button-pos {
-  justify-content: center;
-  align-items: center;
-}
+
 .main-section {
   background-color: white;
 }
@@ -221,9 +217,7 @@ body {
   color: var(--foot-font-color);
 }
 /* box */
-.margin {
-  margin: 0px 200px 0px 200px;
-}
+
 .section {
   padding: 94px 0px;
 }
@@ -235,19 +229,19 @@ body {
 .box-head {
   border-bottom: 1px;
   display: flex;
-  width: 1600px;
 }
 .logo-box {
-  padding: 24px 0px 25px 0px;
+  margin: 24px 0px 25px 0px;
   display: inline-flex;
+  width: 145px;
 }
 .nav-box {
   display: inline-flex;
-  padding: 27px 371px 37px 93px;
+  margin: 27px 371px 37px 93px;
 }
 .mid-element-navlist {
   display: inline-flex;
-  margin: 0px 46px 0px 46px;
+  margin: 0px 46px;
 }
 .nav-list-sec-box {
   padding: 32px 12px 32px 0px;
@@ -258,4 +252,16 @@ body {
 .main-section-box {
   display: block;
   background-color: #2f303a;
+}
+.middle-text-box {
+  padding: 106px 252px 30px 252px;
+}
+.button-pos {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 500px;
+  margin-bottom: 200px;
+}
+.paragraph-list-box: {
 }
