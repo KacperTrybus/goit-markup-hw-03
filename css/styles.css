@@ -148,6 +148,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .p-text {
   color: var(--nr-color);
@@ -223,7 +224,6 @@ body {
 }
 .container {
   width: 1200px;
-  padding: 0px 15px;
   margin: 0px auto;
 }
 .box-head {
@@ -233,18 +233,17 @@ body {
 .logo-box {
   margin: 24px 0px 25px 0px;
   display: inline-flex;
-  width: 145px;
 }
 .nav-box {
   display: inline-flex;
   margin: 27px 371px 37px 93px;
 }
 .mid-element-navlist {
-  display: inline-flex;
   margin: 0px 46px;
 }
 .nav-list-sec-box {
-  padding: 32px 12px 32px 0px;
+  margin: 32px 12px 32px 0px;
+  display: inline-flex;
 }
 .contact-mail {
   margin-right: 50px;
@@ -254,14 +253,16 @@ body {
   background-color: #2f303a;
 }
 .middle-text-box {
-  padding: 106px 252px 30px 252px;
+  margin: 106px 252px 30px 252px;
 }
 .button-pos {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding-left: 500px;
+  margin-left: 500px;
   margin-bottom: 200px;
 }
-.paragraph-list-box: {
+.paragraph-list-box {
+  display: inline-flex;
+  text-align: left;
 }
