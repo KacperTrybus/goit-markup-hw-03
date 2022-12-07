@@ -148,7 +148,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 .p-text {
   color: var(--nr-color);
@@ -265,4 +264,23 @@ body {
 .paragraph-list-box {
   display: inline-flex;
   text-align: left;
+}
+.paragraph-list span {
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+.paragraph-list p {
+  margin-right: 30px;
+}
+.images-list-box {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.mid-photo {
+  padding: 0px 30px;
+}
+.images-team-list-box {
+  display: inline-flex;
+  margin-top: 50px;
 }
