@@ -61,6 +61,8 @@ body {
   line-height: 1.17;
   color: white;
   text-decoration: none;
+  display: inline-flex;
+  margin: 60px 15px 20px 15px;
 }
 
 .logo-color {
@@ -244,7 +246,7 @@ body {
 }
 .nav-box {
   display: inline-flex;
-  margin: 27px 371px 37px 93px;
+  margin: 37px 371px 37px 93px;
 }
 .mid-element-navlist {
   margin: 0px 46px;
@@ -273,6 +275,7 @@ body {
 .paragraph-list-box {
   display: inline-flex;
   text-align: left;
+  padding: 0px 15px;
 }
 .paragraph-list span {
   display: inline-flex;
@@ -303,4 +306,12 @@ body {
 .team-cap {
   display: flex;
   flex-direction: column;
+}
+
+.foot-links-box {
+  margin: 0px 0px 60px 15px;
+}
+.foot-mail {
+  display: inline-flex;
+  padding: 9px 0px;
 }
