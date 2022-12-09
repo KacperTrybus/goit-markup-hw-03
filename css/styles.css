@@ -7,6 +7,7 @@
   --main-bg-color: #e5e5e5;
   --team-bg-color: #f5f4fa;
   --foot-font-color: rgb(255, 255, 255, 0.6);
+  --border-portfolio: #eeeeee;
 }
 
 * {
@@ -222,6 +223,7 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
+  padding: 6px 22px 6px 22px;
 }
 .foot-text-portfolio {
   text-decoration: underline;
@@ -314,4 +316,39 @@ body {
 .foot-mail {
   display: inline-flex;
   padding: 9px 0px;
+}
+.filter-list-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 8px;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.project-item-box {
+  border: solid 1px var(--border-portfolio);
+}
+.project-item-cap {
+  margin: 10px;
+}
+.figure-head-portfolio {
+  color: var(--font-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  text-align: left;
+  padding: 20px 24px 4px 24px;
+}
+.figure-caption-portfolio {
+  color: var(--nr-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  padding: 0px 24px 20px 24px;
+  display: block;
 }
