@@ -8,6 +8,7 @@
   --team-bg-color: #f5f4fa;
   --foot-font-color: rgb(255, 255, 255, 0.6);
   --border-portfolio: #eeeeee;
+  --border-header: #ececec;
 }
 
 * {
@@ -240,7 +241,8 @@ body {
   margin: 0px auto;
 }
 .box-head {
-  border-bottom: 1px;
+  border-bottom: solid 1px;
+  border-color: var(--border-header);
   display: flex;
 }
 .logo-box {
